@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+</head>
+<body bgcolor="silver">
+            <h1 align="center">Buy Now</h1>
+    <hr>
+<form action="" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>User Information</legend>
+        <table align="center" cellspacing="0" cellpadding="10" bgcolor="grey">
+            <tr>
+                <td colspan="2">
+                    Name: <input type="text" name="fname" placeholder="First Name" required><input type="text" name="fname" placeholder="Middle Name" required><input type="text" name="fname" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile: <input type="Tel" name="phone" placeholder="Phone Number" required>
+                </td>
+                <td>
+                    City: <input type="text" name="city" placeholder="City" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email: <input type="email" name="email" placeholder="E-mail" required>
+                </td>
+                <td>
+                    District: <input type="text" name="district" placeholder="District" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password: <input type="password" name="password" placeholder="Password" required>
+                </td>
+                <td>
+                    State: <input type="text" name="state" placeholder="State" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Upload Identity: <input type="file" accept="image/jpeg,image/png,image/jpg" required>
+                </td>
+                <td>
+                    Aadhar No.: <input type="number" name="aadhar" placeholder="Aadhar Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:<br>
+                    <label> Male:<input type="radio" name="gender" required></label>
+                    <label>Female:<input type="radio" name="gender"></label>
+                    <label>Other:<input type="radio" name="gender"></label>
+                </td>
+                <td>
+                    Birth Date: <input type="date" max="2022-10-12" required>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<hr>
+</body>
+</html>
